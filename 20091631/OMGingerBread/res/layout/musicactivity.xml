@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/PlayMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Music" />
+
+    <Button
+        android:id="@+id/PauseMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause And Resume Music" />
+
+    <Button
+        android:id="@+id/ReturnToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Music And Go Back" />
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="355dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/ProcView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ProcView"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+		    <Button
+		        android:id="@+id/ProcRead"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="ProcRead" />
+		
+		    <Button
+		        android:id="@+id/ProcRun"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="ProcStart" />
+		
+		    <Button
+		        android:id="@+id/ProcStop"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="ProcStop &amp; Return to Main" />
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="CPU % will be displayed at bottom (2.5secs)."
+		        />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
